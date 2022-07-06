@@ -11,6 +11,10 @@
 		51E845E128749BDF007AD50B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E845E028749BDF007AD50B /* ContentView.swift */; };
 		51E845E328749BE1007AD50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E845E228749BE1007AD50B /* Assets.xcassets */; };
 		51E845E628749BE1007AD50B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E845E528749BE1007AD50B /* Preview Assets.xcassets */; };
+		51E845EF2874A533007AD50B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E845EE2874A533007AD50B /* Car.swift */; };
+		51E845F12874A756007AD50B /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E845F02874A756007AD50B /* Motorcycle.swift */; };
+		51E8461528758BA3007AD50B /* CarDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8461428758BA3007AD50B /* CarDetailsView.swift */; };
+		51E8461728758CC7007AD50B /* MotoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8461628758CC7007AD50B /* MotoDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		51E845E028749BDF007AD50B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51E845E228749BE1007AD50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51E845E528749BE1007AD50B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51E845EE2874A533007AD50B /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		51E845F02874A756007AD50B /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		51E8461428758BA3007AD50B /* CarDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsView.swift; sourceTree = "<group>"; };
+		51E8461628758CC7007AD50B /* MotoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				51E845DE28749BDF007AD50B /* NavProjectApp.swift */,
 				51E845E028749BDF007AD50B /* ContentView.swift */,
+				51E8461628758CC7007AD50B /* MotoDetailsView.swift */,
+				51E8461428758BA3007AD50B /* CarDetailsView.swift */,
+				51E845EE2874A533007AD50B /* Car.swift */,
+				51E845F02874A756007AD50B /* Motorcycle.swift */,
 				51E845E228749BE1007AD50B /* Assets.xcassets */,
 				51E845E428749BE1007AD50B /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E845F12874A756007AD50B /* Motorcycle.swift in Sources */,
+				51E8461528758BA3007AD50B /* CarDetailsView.swift in Sources */,
+				51E8461728758CC7007AD50B /* MotoDetailsView.swift in Sources */,
 				51E845E128749BDF007AD50B /* ContentView.swift in Sources */,
 				51E845DF28749BDF007AD50B /* NavProjectApp.swift in Sources */,
+				51E845EF2874A533007AD50B /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
